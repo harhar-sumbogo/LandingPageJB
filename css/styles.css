@@ -12255,7 +12255,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
@@ -12474,3 +12474,52 @@ header.masthead {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/* css sindu */
+
+.text-center.fw-bold{
+  letter-spacing: 5px;
+  color:#00301E;
+  margin-bottom: 2rem;
+
+}
+.container.kepalaSekolah{
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.img-responsive.img-principal{
+    max-width: 100%;
+}
+.container.description {
+  float: left;
+  width: 60%;
+}
+
+.container.description p{
+  line-height: 2.5rem;
+}
+
+.page-section#services{
+  clear: both;
+}
+
+.btn.btn-outline-success{
+  color:#00301E;
+  border-color: #00301E;
+  border: 2px solid #00301E;
+}
+
+.btn.btn-outline-success:hover{
+  color:white;
+  background-color: #00301E ;
+}
+
+.fa.fa-arrow-right{
+  margin-left: 0.2rem;
+}
+
+/* .fa.fa-arrow-right{
+  color:white;
+} */
+
