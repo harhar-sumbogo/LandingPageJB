@@ -12476,9 +12476,11 @@ header.masthead {
 }
 
 /* css sindu */
-
+.page-section.bg-white{
+  height: 135%;
+}
 .text-center.fw-bold{
-  letter-spacing: 5px;
+  letter-spacing: 0.625rem;
   color:#00301E;
   margin-bottom: 2rem;
 
@@ -12493,7 +12495,8 @@ header.masthead {
 }
 .container.description {
   float: left;
-  width: 60%;
+  text-align: justify;
+  width: 64%;
 }
 
 .container.description p{
@@ -12519,7 +12522,40 @@ header.masthead {
   margin-left: 0.2rem;
 }
 
-/* .fa.fa-arrow-right{
-  color:white;
-} */
+.fw-bold.text-white.text-center{
+  letter-spacing: 0.625rem;
+  background-color: #00301E;
+  padding:1.563rem 0rem 1.563rem 0.625rem;
+  clear: both;
+}
 
+.myDivider{
+  border-top: 0.188rem solid #FF9800;
+  width: 29%;
+  margin: -3.75rem auto 3rem auto;
+}
+
+
+#coreValues img{
+  width: 20%;
+}
+
+#coreValues img.text-center:nth-child(1){
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.coreDes{
+  width: 30%;
+  margin: -20px auto 0px auto;
+  text-align: center;
+}
+
+
+
+
+.fw-bold.font-italic.text-center{
+  letter-spacing: normal;
+  color: #FF9800;
+  font-style: italic;
+}
