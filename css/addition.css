@@ -10,28 +10,23 @@
 
 }
 
-.kepalaSekolah {
-    width: 35%;
-    height: auto;
-    float: left;
-}
-
 .img-responsive.img-principal {
     max-width: 100%;
 }
 
+@media (max-width: 570px) {
+    .description {
+        width: auto !important;
+    }
+}
+
 .description {
-    float: left;
     text-align: justify;
-    width: 64%;
+    margin-bottom: 20px;
 }
 
 .description p {
     line-height: 2.5rem;
-}
-
-.description {
-    margin-bottom: 20px;
 }
 
 .row {
