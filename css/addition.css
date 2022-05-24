@@ -1,8 +1,3 @@
-/* css sindu */
-.page-section.bg-white {
-    height: 135%;
-}
-
 .text-center.fw-bold {
     letter-spacing: 0.625rem;
     color: #00301E;
@@ -81,22 +76,17 @@
     margin-left: 0.2rem;
 }
 
+.underline-yellow {
+    border-bottom: 0.188rem solid #FF9800;
+}
+
 #core-values-title {
-    text-align: center;
     background-color: #00301E;
     padding: 1.563rem 0rem;
 }
 
 #core-values-title>h1 {
-    display: inline-block;
-    border-bottom: 0.188rem solid #FF9800;
     color: white;
-}
-
-.myDivider {
-    border-top: 0.188rem solid #FF9800;
-    width: 29%;
-    margin: -3.75rem auto 3rem auto;
 }
 
 table {
@@ -322,38 +312,12 @@ table {
     border-radius: 0.5rem;
 }
 
-
-
-/* .showMoreButton {
-  margin-left: 2%;
-  background-color: #00301E;
-  clear: both;
-  padding: 0.8rem 0.5rem ;
-  border-radius: 0.5rem;
+.social-media .row>* {
+    padding: 0;
 }
 
-.showMoreButton a{
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  font-weight: 500;
-  
-} */
-
-
-
-/* .showMoreButton:hover {
-  margin-left: 2%;
-  background-color: white;
-  clear: both;
-  padding: 0.8rem 0.5rem ;
-  border-radius: 0.5rem;
+.img-social-media {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
 }
-
-.showMoreButton a:hover{
-  text-decoration: none;
-  color:#00301E;
-  font-family: sans-serif;
-  font-weight: 500;
-  
-} */

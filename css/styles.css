@@ -12404,15 +12404,6 @@ header.masthead {
   }
 }
 
-#portfolio .container-fluid,
-#portfolio .container-sm,
-#portfolio .container-md,
-#portfolio .container-lg,
-#portfolio .container-xl,
-#portfolio .container-xxl {
-  max-width: 1920px;
-}
-
 #portfolio .container-fluid .portfolio-box,
 #portfolio .container-sm .portfolio-box,
 #portfolio .container-md .portfolio-box,
