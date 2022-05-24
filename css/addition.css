@@ -321,3 +321,7 @@ table {
     height: auto;
     cursor: pointer;
 }
+
+#location-map>iframe {
+    border-radius: 2rem;
+}
