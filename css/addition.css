@@ -7,7 +7,6 @@
     letter-spacing: 0.625rem;
     color: #00301E;
     margin-bottom: 2rem;
-
 }
 
 .img-responsive.img-principal {
@@ -82,11 +81,16 @@
     margin-left: 0.2rem;
 }
 
-.fw-bold.text-white.text-center {
-    letter-spacing: 0.625rem;
+#core-values-title {
+    text-align: center;
     background-color: #00301E;
-    padding: 1.563rem 0rem 1.563rem 0.625rem;
-    clear: both;
+    padding: 1.563rem 0rem;
+}
+
+#core-values-title>h1 {
+    display: inline-block;
+    border-bottom: 0.188rem solid #FF9800;
+    color: white;
 }
 
 .myDivider {
