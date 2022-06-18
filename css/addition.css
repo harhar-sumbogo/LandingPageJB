@@ -325,3 +325,7 @@ table {
 #location-map>iframe {
     border-radius: 2rem;
 }
+
+.img-school{
+    max-width: 80% !important;
+}
