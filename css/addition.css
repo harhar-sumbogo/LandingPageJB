@@ -329,3 +329,23 @@ table {
 .img-school{
     max-width: 80% !important;
 }
+
+footer.page-section{
+    border-top: 1rem #FF9800 solid;
+    background-color: #00301D;
+    color: white;
+    padding-bottom: 0rem !important;
+    padding-top: 3rem !important;
+}
+
+footer.page-section .col img{
+    max-width: 25%;
+}
+
+#copyright{
+    margin-left: 2rem;
+}
+
+#iconFooter{
+    margin-right: 0.5rem !important;
+}
