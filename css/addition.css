@@ -342,6 +342,11 @@ footer.page-section .col img{
     max-width: 25%;
 }
 
+#footerROW{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 #copyright{
     margin-left: 2rem;
 }
@@ -387,23 +392,22 @@ a#breadcrumb:nth-last-child(1):hover{
 }
 
 #isiDetailContent{
-    width: 100%;
-
-    
+    width: 90%;
 }
 
 #fotoDetail{
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .row.pt-4{
     text-align: justify;
     line-height: 2rem;
-    margin-right: 2rem;
+  
 }
 
 #orderedList{
     margin-left: 1rem;
+    
 }
 /* p.ml-4 li{
     margin-left: 1rem !important;
