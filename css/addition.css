@@ -377,12 +377,6 @@ a#breadcrumb:nth-last-child(1):hover{
     color: #00301D
 }
 
-/* ==  section detail == */
-/* .page-section .py-3{
-    width: 200px;
-    height: 200px;
-} */
-
 #title{
     font-size: 1.8rem;
 }
@@ -419,6 +413,93 @@ a#breadcrumb:nth-last-child(1):hover{
     margin-left: 1rem;
     
 }
-/* p.ml-4 li{
-    margin-left: 1rem !important;
-} */
+
+/* style slider youtube */
+.container.slider{
+    height: 100%;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+.subcontainer{
+    width: 85%;
+    margin: auto;
+   
+}
+
+
+.controller{
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous, .next{
+    padding:2px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.4s all ease;
+    border: 3px solid white;
+    background-color: black;
+    box-shadow: 0 0 5px #bbb;
+
+}
+
+.previous:hover, .next:hover{
+    border: 3px solid gray;
+}
+
+.slide-img{
+    width: 100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.slide-img a {
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+}
+
+.slide-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px black inset;
+}
+
+.img-1{
+    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+.img-2{
+    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-3{
+    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-4{
+    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-5{
+    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+
+
+
