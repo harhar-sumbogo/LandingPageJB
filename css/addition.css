@@ -423,7 +423,7 @@ a#breadcrumb:nth-last-child(1):hover{
 }
 
 .subcontainer{
-    width: 85%;
+    width: 100%;
     margin: auto;
    
 }
@@ -431,31 +431,52 @@ a#breadcrumb:nth-last-child(1):hover{
 
 .controller{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center ;
+    align-items: center ;
+    margin-top: 1rem;
 }
 
 .previous, .next{
     padding:2px;
     width: 30px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 20%;
     outline: none;
     transition: 0.4s all ease;
-    border: 3px solid white;
-    background-color: black;
+    border: 2px solid #00301D;
+    /* background-color: black; */
     box-shadow: 0 0 5px #bbb;
+    /* margin-bottom: 0.5rem;
+    position: absolute;
+    z-index: 1; */
+
+}
+
+.next{
+    padding:2px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 20%;
+    outline: none;
+    transition: 0.4s all ease;
+    border: 2px solid #00301D;
+    /* background-color: black; */
+    box-shadow: 0 0 5px #bbb;
+    margin-bottom: 0.5rem;
 
 }
 
 .previous:hover, .next:hover{
-    border: 3px solid gray;
+    border: 2px solid gray;
 }
 
 .slide-img{
     width: 100%;
-    height: 275px;
+    height: 250px;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
+    background-repeat: no-repeat;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -469,6 +490,7 @@ a#breadcrumb:nth-last-child(1):hover{
     transition: 0.8s;
     font-size: 1.5rem;
     color: white;
+    font-weight: bold;
     opacity: 0;
 }
 
@@ -478,25 +500,27 @@ a#breadcrumb:nth-last-child(1):hover{
 }
 
 .slide-img:hover{
-    box-shadow: 0 0 0 200px black inset;
+    box-shadow: 0 0 0 200px #DE5A37 inset;
+    
+    
 }
 
 .img-1{
-    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.youtube.com/vi/AG0XhiMC44c/maxresdefault.jpg);
 }
 
 
 .img-2{
-    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.youtube.com/vi/ajsRC-lu2I8/maxresdefault.jpg);
 }
 .img-3{
-    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.youtube.com/vi/pONr-cABaoI/maxresdefault.jpg);
 }
 .img-4{
-    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.youtube.com/vi/K7XXWA36_IY/maxresdefault.jpg);
 }
 .img-5{
-    background-image: url(https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.youtube.com/vi/APWv39DZzww/maxresdefault.jpg);
 }
 
 
