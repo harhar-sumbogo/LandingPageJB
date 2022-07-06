@@ -83,6 +83,17 @@
     clear: both;
 }
 
+.video-kepala-sekolah {
+    padding: 0 30px;
+    width: 100%;
+    height: 50vw;
+}
+
+#kepala-sekolah > p {
+    text-align: center;
+    margin: 10px 30px;
+}
+
 @media (max-width: 992px) {
 
     .description,
