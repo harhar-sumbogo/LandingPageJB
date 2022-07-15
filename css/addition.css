@@ -617,3 +617,57 @@ a#breadcrumb:nth-last-child(1):hover {
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
+/* halaman mars de britto */
+#titleMars{
+    position: absolute;
+    z-index: 99 ;
+    font-size: 3.125rem;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    height: 6.25rem;
+    width: 17.75rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #474747;
+}
+
+#titleMars span{
+    color: #FF9800;
+}
+.video-mars{
+    margin-top: 3rem;
+    padding: 0 30px;
+    width: 90%;
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marsDesc{
+    text-align: center;
+    margin-top: 2.4rem
+}
+
+#marsDesc p:nth-child(1){
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px #d6d6d6;
+    margin-bottom: 0rem;
+}
+
+#marsDesc p:nth-child(2){
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#marsDesc p:nth-child(3){
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+    line-height: 2.2rem;
+}
