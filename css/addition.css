@@ -545,3 +545,24 @@ a#breadcrumb:nth-last-child(1):hover {
 .subList{
     list-style-type:lower-alpha;
 }
+
+
+#titleVisiMisi{
+    position: absolute;
+    z-index: 99 ;
+    font-size: 3.125rem;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    height: 6.25rem;
+    width: 18.75rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #474747;
+}
+#titleVisiMisi span{
+    color: #FF9800;
+}
