@@ -492,3 +492,56 @@ a#breadcrumb:nth-last-child(1):hover {
 .img-5 {
     background-image: url(https://img.youtube.com/vi/APWv39DZzww/maxresdefault.jpg);
 }
+
+
+/* halaman visi misi */
+#visiMisi{
+    padding-right: 0rem;
+}
+
+#visi{
+    margin-top: 3.7rem;
+}
+
+#visi p{
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}
+
+#visi h1{
+    font-weight: bold;
+    color: #00301D;
+    text-shadow: 2px 2px #adadad;
+    
+}
+
+.visiDesc{
+    width: 48.875rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#misi{
+    margin-top: 3.7rem;
+}
+
+.misiDesc{
+    width: 1000px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+}
+
+#misi h1{
+    font-weight: bold;
+    color: #00301D;
+    text-shadow: 2px 2px #adadad;
+    
+}
+
+.subList{
+    list-style-type:lower-alpha;
+}
