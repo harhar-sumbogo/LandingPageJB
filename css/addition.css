@@ -550,7 +550,7 @@ a#breadcrumb:nth-last-child(1):hover {
 #titleVisiMisi{
     position: absolute;
     z-index: 99 ;
-    font-size: 3.125rem;
+    font-size: clamp(2rem, 3.5vw, 5rem); 
     color: white;
     left: 0;
     right: 0;
@@ -558,8 +558,7 @@ a#breadcrumb:nth-last-child(1):hover {
     bottom: 0;
     margin: auto;
     text-align: center;
-    height: 6.25rem;
-    width: 18.75rem;
+    height: 3rem;
     font-weight: bold;
     text-shadow: 2px 2px #474747;
 }
@@ -575,7 +574,7 @@ a#breadcrumb:nth-last-child(1):hover {
 #titleMaknaLogo{
     position: absolute;
     z-index: 99 ;
-    font-size: 3.125rem;
+    font-size: clamp(2rem, 3.5vw, 5rem); 
     color: white;
     left: 0;
     right: 0;
@@ -583,8 +582,7 @@ a#breadcrumb:nth-last-child(1):hover {
     bottom: 0;
     margin: auto;
     text-align: center;
-    height: 6.25rem;
-    width: 22.75rem;
+    height: 5.25rem;
     font-weight: bold;
     text-shadow: 2px 2px #474747;
 }
@@ -622,7 +620,7 @@ a#breadcrumb:nth-last-child(1):hover {
 #titleMars{
     position: absolute;
     z-index: 99 ;
-    font-size: 3.125rem;
+    font-size: clamp(2rem, 3.5vw, 5rem); 
     color: white;
     left: 0;
     right: 0;
@@ -631,7 +629,6 @@ a#breadcrumb:nth-last-child(1):hover {
     margin: auto;
     text-align: center;
     height: 6.25rem;
-    width: 17.75rem;
     font-weight: bold;
     text-shadow: 2px 2px #474747;
 }
@@ -719,13 +716,6 @@ a#breadcrumb:nth-last-child(1):hover {
     font-size:25;
     color: #000000;
 }
-
-
-
-
-
-
-
 
 #guruKaryawanGambarBackGround{
     width: 100%;
