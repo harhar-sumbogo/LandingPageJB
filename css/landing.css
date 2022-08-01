@@ -1,0 +1,81 @@
+#logo-jb>img {
+    width: 5rem;
+}
+
+#logo-jb {
+    padding-top: 25vh;
+}
+
+#main-landing {
+    height: 88vh;
+}
+
+#contact-landing {
+    height: 5vh;
+}
+
+#contact-landing a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-landing {
+    background-color: black;
+}
+
+footer {
+    height: 7vh;
+}
+
+.row>* {
+    width: auto;
+}
+
+main {
+    color: white !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/landing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nama-jb>h1 {
+    font-weight: 900;
+    color: #FF9800;
+}
+
+#go-home>button {
+    color: white;
+
+    border: 1px solid #FF9800;
+    border-radius: 10px;
+}
+
+#go-home>button:hover {
+    background-color: #FF9800;
+}
+
+#go-home>button>i {
+    font-size: 20px;
+}
+
+#whatsapp>button {
+    border-radius: 5rem;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+#whatsapp>button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#info {
+    font-size: 20px;
+    width: 70%;
+}
+
+#info .row {
+    flex-wrap: unset;
+}
