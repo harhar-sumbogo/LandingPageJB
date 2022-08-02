@@ -89,7 +89,7 @@
     height: 50vw;
 }
 
-#kepala-sekolah > p {
+#kepala-sekolah>p {
     text-align: center;
     margin: 10px 30px;
 }
@@ -495,37 +495,37 @@ a#breadcrumb:nth-last-child(1):hover {
 
 
 /* halaman visi misi */
-#visiMisi{
+#visiMisi {
     padding-right: 0rem;
 }
 
-#visi{
+#visi {
     margin-top: 3.7rem;
 }
 
-#visi p{
+#visi p {
     font-size: 1.2rem;
     line-height: 2.4rem;
 }
 
-#visi h1{
+#visi h1 {
     font-weight: bold;
     color: #00301D;
     text-shadow: 2px 2px #adadad;
-    
+
 }
 
-.visiDesc{
+.visiDesc {
     width: 48.875rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-#misi{
+#misi {
     margin-top: 3.7rem;
 }
 
-.misiDesc{
+.misiDesc {
     width: 62.5rem;
     text-align: justify;
     margin-left: auto;
@@ -535,22 +535,22 @@ a#breadcrumb:nth-last-child(1):hover {
     line-height: 2.4rem;
 }
 
-#misi h1{
+#misi h1 {
     font-weight: bold;
     color: #00301D;
     text-shadow: 2px 2px #adadad;
-    
+
 }
 
-.subList{
-    list-style-type:lower-alpha;
+.subList {
+    list-style-type: lower-alpha;
 }
 
 
-#titleVisiMisi{
+#titleVisiMisi {
     position: absolute;
-    z-index: 99 ;
-    font-size: clamp(2rem, 3.5vw, 5rem); 
+    z-index: 99;
+    font-size: clamp(2rem, 3.5vw, 5rem);
     color: white;
     left: 0;
     right: 0;
@@ -562,19 +562,21 @@ a#breadcrumb:nth-last-child(1):hover {
     font-weight: bold;
     text-shadow: 2px 2px #474747;
 }
-#titleVisiMisi span{
+
+#titleVisiMisi span {
     color: #FF9800;
 }
 
 /* halaman makna logo */
 
-#maknaLogo{
+#maknaLogo {
     padding-right: 0rem;
 }
-#titleMaknaLogo{
+
+#titleMaknaLogo {
     position: absolute;
-    z-index: 99 ;
-    font-size: clamp(2rem, 3.5vw, 5rem); 
+    z-index: 99;
+    font-size: clamp(2rem, 3.5vw, 5rem);
     color: white;
     left: 0;
     right: 0;
@@ -587,7 +589,7 @@ a#breadcrumb:nth-last-child(1):hover {
     text-shadow: 2px 2px #474747;
 }
 
-#titleMaknaLogo span{
+#titleMaknaLogo span {
     color: #FF9800;
 }
 
@@ -595,7 +597,7 @@ a#breadcrumb:nth-last-child(1):hover {
     width: 13.75rem;
 }
 
-.maknaDesc{
+.maknaDesc {
     width: 60.5rem;
     text-align: justify;
     margin-left: auto;
@@ -605,7 +607,7 @@ a#breadcrumb:nth-last-child(1):hover {
     line-height: 2rem;
 }
 
-.kutipanMakna{
+.kutipanMakna {
     width: 60.5rem;
     text-align: center;
     margin-left: auto;
@@ -617,10 +619,10 @@ a#breadcrumb:nth-last-child(1):hover {
 }
 
 /* halaman mars de britto */
-#titleMars{
+#titleMars {
     position: absolute;
-    z-index: 99 ;
-    font-size: clamp(2rem, 3.5vw, 5rem); 
+    z-index: 99;
+    font-size: clamp(2rem, 3.5vw, 5rem);
     color: white;
     left: 0;
     right: 0;
@@ -633,10 +635,11 @@ a#breadcrumb:nth-last-child(1):hover {
     text-shadow: 2px 2px #474747;
 }
 
-#titleMars span{
+#titleMars span {
     color: #FF9800;
 }
-.video-mars{
+
+.video-mars {
     margin-top: 3rem;
     padding: 0 30px;
     width: 90%;
@@ -645,25 +648,25 @@ a#breadcrumb:nth-last-child(1):hover {
     margin-right: auto;
 }
 
-#marsDesc{
+#marsDesc {
     text-align: center;
     margin-top: 2.4rem
 }
 
-#marsDesc p:nth-child(1){
+#marsDesc p:nth-child(1) {
     font-weight: bold;
     font-size: 2.5rem;
     text-shadow: 2px 2px #d6d6d6;
     margin-bottom: 0rem;
 }
 
-#marsDesc p:nth-child(2){
+#marsDesc p:nth-child(2) {
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-#marsDesc p:nth-child(3){
+#marsDesc p:nth-child(3) {
     font-size: 1.2rem;
     margin-bottom: 6rem;
     line-height: 2.2rem;
@@ -671,17 +674,17 @@ a#breadcrumb:nth-last-child(1):hover {
 
 /* halaman guru karyawan */
 
-.elementsContainer a{
+.elementsContainer a {
     text-decoration: none;
 }
 
-.elementsContainer span{
+.elementsContainer span {
     margin-top: auto;
     margin-bottom: auto;
     display: block;
 }
 
-.boxContainer{
+.boxContainer {
     margin: auto;
     position: relative;
     width: 300px;
@@ -690,7 +693,7 @@ a#breadcrumb:nth-last-child(1):hover {
     border-radius: 50px;
     background-color: white;
     position: absolute;
-    z-index: 99 ;
+    z-index: 99;
     left: 0;
     right: 0;
 
@@ -699,40 +702,48 @@ a#breadcrumb:nth-last-child(1):hover {
     margin-top: -20vw;
     /* margin-top: 1rem; */
 }
-.elementsContainer{
+
+.elementsContainer {
     width: 100%;
     height: 100%;
     vertical-align: middle;
 }
-.search{
+
+.search {
     border: none;
     height: 90%;
     width: 100%;
 }
-.search:focus{
+
+.search:focus {
     outline: none;
 }
-.material-icons{
-    font-size:25;
+
+.material-icons {
+    font-size: 25;
     color: #000000;
 }
 
-#guruKaryawanGambarBackGround{
+#guruKaryawanGambarBackGround,
+#fasilitasSekolahBackground,
+#galeriBackground {
     width: 100%;
     height: 100%;
     /* background-color: red */
 }
 
-#guruKaryawanGambarBackGround img{
+#guruKaryawanGambarBackGround img,
+#fasilitasSekolahBackground img,
+#galeriBackground img {
     width: 100%;
     height: 100%;
 }
 
-#titleGuruKaryawan{
+#titleGuruKaryawan {
     position: absolute;
-    z-index: 99 ;
+    z-index: 99;
     /* font-size: 3.125rem; */
-    font-size: clamp(2rem, 3.5vw, 5rem); 
+    font-size: clamp(2rem, 3.5vw, 5rem);
     color: white;
     left: 0;
     right: 0;
@@ -746,38 +757,39 @@ a#breadcrumb:nth-last-child(1):hover {
     text-shadow: 2px 2px #474747;
 }
 
-#titleGuruKaryawan span{
+#titleGuruKaryawan span {
     color: #FF9800;
 }
 
-.titleHalaman{
+.titleHalaman {
     font-weight: bold;
     font-size: 2.5rem;
     color: #00301D;
     text-shadow: 3px 4px #bbbbbb;
 }
-.fotoGuruKaryawan{
+
+.fotoGuruKaryawan {
     margin-top: 4rem;
     margin-bottom: 12rem;
 }
 
-.fotoGuruKaryawan .img{
+.fotoGuruKaryawan .img {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.bingkai{
+.bingkai {
     width: 15.8rem;
     background-color: #788D85;
     padding: 1rem;
-    border-radius: 1rem ;
+    border-radius: 1rem;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-.bingkai p{
+.bingkai p {
     text-align: center;
     margin-top: 1rem;
     color: white;

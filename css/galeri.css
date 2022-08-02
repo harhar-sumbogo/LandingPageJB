@@ -1,0 +1,59 @@
+#galeri>.row {
+    margin: 25px;
+}
+
+#galeri {
+    margin-top: -10vw;
+}
+
+#galeriBackground {
+    background-image: url("/assets/img/galeri.png");
+    position: relative;
+    z-index: -10;
+}
+
+.masthead {
+    background: transparent !important;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    z-index: 10;
+}
+
+.caption h1 {
+    font-size: xx-large;
+}
+
+.galeri-box {
+    position: relative;
+    display: block;
+}
+
+.galeri-box:hover>img {
+    webkit-filter: blur(4px);
+    filter: blur(4px);
+    transition: filter 0.25s ease;
+}
+
+.btn-more {
+    margin-top: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3rem;
+}
+
+.btn-more:hover {
+    color: black;
+    background: white;
+}
