@@ -49,16 +49,15 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-
-// slider youtube
-let slider = tns({
+// slider berita 
+let slider2 = tns({
     container : ".my-slider",
     "slideBy" : 1,
     "speed" : 400,
     "nav" : false, 
     controlsContainer: "#controls",
-    prevButton : ".previous",
-    nextButton : ".next",
+    prevButton : ".previous2",
+    nextButton : ".next2",
     responsive :{
         1600:{
             items: 4, 
@@ -79,4 +78,3 @@ let slider = tns({
     }
 
 })
-

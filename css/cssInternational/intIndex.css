@@ -8,6 +8,11 @@
     src: url("/font/ChildrenSans.ttf");
 }
 
+@font-face {
+    font-family: papernotes;
+    src: url("/font/Papernotes.otf");
+}
+  
 #backgroundIntIndex{
     width: 85%;
     height: 100%;
@@ -18,7 +23,7 @@
 }
 
 .nav-item .nav-link{
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
 }
 
 #welcomeTo{
@@ -83,7 +88,7 @@
 }
 
 #slider{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .slide{
@@ -161,5 +166,127 @@
 }
 #intNewsDesc p:nth-child(3){
     text-align: justify;
+}
+
+.previous2,
+.next2 {
+    padding: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s all ease;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    font-family: papernotes;
+    
+}
+
+.previous2{
+    color: black;
+    margin-right: 0.5rem;
+}
+
+.next2{
+    color: #F6BA0A;
+    margin-left: 0.5rem;
+}
+
+.controller{
+    margin-top: 1rem !important;
+}
+
+
+/* bagian video principal */
+#principalTitle{
+    width: 250px;
+    background-color: #00301D;
+    color: #F6BA0A;
+    padding: 0.5rem 3rem ;
+    border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: dDiam;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+   
+}
+
+#principalTitle p{
+    margin-bottom: 0rem;
+}
+
+#principalVideoPlayer{
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#principalVideoPlayer iframe{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#principalVideoDesc{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 2rem;
+}
+
+
+/* bagian our partner */
+#ourPartner{
+    width: 90%;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5rem;
+}
+#partnerImage{
+    width: 15.625rem;
+    height: 15.625rem;
+}
+
+#partnerImage img{
+    /* width: 15.625rem;
+    height: 15.625rem; */
+
+    width: 100%;
+   
+   
+}
+
+#partnerTitle{
+    margin-left: 70%;
+    margin-top: 5rem;
+}
+
+#partnerTitle p:nth-child(1){
+    color: #00301D;
+    font-family: dDiam;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+#partnerTitle p:nth-child(2){
+    color: #F6BA0A;
+    font-family: papernotes;
+    font-size: 2.5rem;
+    margin-top: -1.3rem;
+    margin-left: 1rem;
+}
+
+/* bagian footer */
+.col-4.mb-2{
+    margin-left: 2rem;
+}
+
+footer.page-section{
+    border-top: 3rem #F6BA0A solid;
 }
 
