@@ -1,0 +1,55 @@
+@font-face {
+    font-family: dDiam;
+    src: url("/font/dDiam.ttf");
+  }
+
+@font-face {
+    font-family: cdSans;
+    src: url("/font/ChildrenSans.ttf");
+}
+
+#backgroundIntIndex{
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Pesta\ Nama\ St\ 1.jpg");
+    background-size: cover;
+}
+
+.nav-item .nav-link{
+    font-size: 1.2rem !important;
+}
+
+#welcomeTo{
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    margin-top: 3rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    margin-left: 8%;
+}
+#welcomeTo h2:nth-child(1){
+    color: #F6BA0A;
+    font-size: 1.8rem;
+}
+#welcomeTo h2:nth-child(2){
+    color: white;
+    font-size: 5rem;
+    font-family: dDiam;
+    letter-spacing: 0.2rem;
+    text-shadow: -1px -1px 0 #F6BA0A, 1px -1px 0 #F6BA0A, -1px 1px 0 #F6BA0A, 1px 1px 0 #F6BA0A;
+    margin-bottom: 0rem;
+}
+#welcomeTo h2:nth-child(3){
+    color: #F6BA0A;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    font-family: cdSans;
+    font-size: 2.5rem;
+    margin-top: -0.3rem;
+}
