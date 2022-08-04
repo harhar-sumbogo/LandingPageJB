@@ -12,6 +12,11 @@
     font-family: papernotes;
     src: url("/font/Papernotes.otf");
 }
+
+@font-face {
+    font-family: poppins;
+    src: url("/font/Poppins-Regular.otf");
+}
   
 #backgroundIntIndex{
     width: 85%;
@@ -290,3 +295,98 @@ footer.page-section{
     border-top: 3rem #F6BA0A solid;
 }
 
+
+/* halaman international about */
+
+
+#titleWelcome h2{
+    width: 20%;
+    color: white;
+    margin-left: 8%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: dDiam;
+    letter-spacing: 0.2rem;
+    font-size: clamp(3.5rem, 10vw, 5rem); 
+    text-shadow: -1px -1px 0 #F6BA0A, 1px -1px 0 #F6BA0A, -1px 1px 0 #F6BA0A, 1px 1px 0 #F6BA0A;
+    border-bottom: 0.3rem dotted #F6BA0A;
+}
+
+.mx-2{
+    margin-top: 3rem;
+}
+
+#leftPanel{
+    /* width: 17%; */
+   /* width: 12.5rem; */
+}
+
+#rightPanel{
+    /* width: 80%; */
+    /* height: 40rem; */
+    /* width: 71.875rem; */
+    background-color: #EEEEEE;
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2.8rem;
+}
+
+#leftPanel p{
+    color: black;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: poppins;
+    margin-bottom: 0rem;
+}
+
+#listAbout ul{
+    height: 18.75rem;
+    list-style-type: none;
+    font-family: poppins;
+    background-color: #EEEEEE;
+    color: #F6BA0A;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+}
+#listAbout ul li{
+    margin-left: -1rem;
+}
+
+#listAbout ul li:nth-child(1){
+    font-weight: 900;
+}
+
+#listAbout a{
+    text-decoration: none;
+    color: #F6BA0A;
+    transition: 0.4s ease all;
+}
+
+#listAbout a:hover{
+    text-decoration: none;
+    color: #00301D;
+    transition: 0.4s ease all;
+}
+
+#rightPanel p{
+    margin: 1rem;
+    text-indent: 2rem;
+    line-height: 2rem;
+    font-family: poppins;
+    font-size: 1.1rem;
+}
+
+#rightPanel p:nth-child(1){
+    font-weight: bold;
+    text-indent: 0rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+
+}
