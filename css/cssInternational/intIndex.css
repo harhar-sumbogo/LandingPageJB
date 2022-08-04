@@ -1,7 +1,7 @@
 @font-face {
     font-family: dDiam;
     src: url("/font/dDiam.ttf");
-  }
+}
 
 @font-face {
     font-family: cdSans;
@@ -18,20 +18,20 @@
     src: url("/font/Poppins-Regular.otf");
 }
   
-#backgroundIntIndex{
+#backgroundIntIndex {
     width: 85%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Pesta\ Nama\ St\ 1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Pesta\ Nama\ St\ 1.jpg");
     background-size: cover;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
     font-size: 1.1rem !important;
 }
 
-#welcomeTo{
+#welcomeTo {
     /* width: 100%; */
     height: 30%;
     margin: 0;
@@ -43,12 +43,14 @@
     text-align: left;
     margin-left: 8%;
 }
-#welcomeTo h2:nth-child(1){
+
+#welcomeTo h2:nth-child(1) {
     color: #F6BA0A;
     /* font-size: 1.8rem; */
     font-size: clamp(0.5rem, 4vw, 1.8rem); 
 }
-#welcomeTo h2:nth-child(2){
+
+#welcomeTo h2:nth-child(2) {
     color: white;
     /* font-size: 5rem; */
     font-size: clamp(2rem, 10vw, 5rem); 
@@ -57,7 +59,8 @@
     text-shadow: -1px -1px 0 #F6BA0A, 1px -1px 0 #F6BA0A, -1px 1px 0 #F6BA0A, 1px 1px 0 #F6BA0A;
     margin-bottom: 0rem;
 }
-#welcomeTo h2:nth-child(3){
+
+#welcomeTo h2:nth-child(3) {
     color: #F6BA0A;
     font-style: italic;
     letter-spacing: 0.1rem;
@@ -67,16 +70,17 @@
     /* font-size: 2.5rem; */
 }
 
-.masthead2{
+.masthead2 {
     height: 100vh;
     background-color: black;
 }
 
-#intNews{
+#intNews {
     width: 100%;
     padding-top: 3rem;
 }
-#intNewsTitle{
+
+#intNewsTitle {
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: 21.25rem;
     background-color: #00301D;
@@ -88,21 +92,15 @@
     font-family: dDiam;
     letter-spacing: 0.2rem;
     font-style: italic;
-    
+
 }
 
-#intNewsTitle p{
+#intNewsTitle p {
     margin-bottom: 0rem;
 }
 
-#slider{
+#slider {
     margin-top: 1rem;
-}
-
-.slide{
-    background-color: #F6F6F6;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 2rem;
 }
 
 .slide-img2 a {
@@ -140,14 +138,14 @@
 }
 
 .slide-img2:hover {
-    cursor: pointer ;
-    transition: 0.7s ;
-    box-shadow: 0 0 0 200px #00301D inset ;
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: 0 0 0 200px #00301D inset;
     /* background-color: #00301D; */
 
 }
 
-.separate{
+.separate {
     width: 60px;
     height: 15px;
     border-radius: 1rem;
@@ -156,23 +154,25 @@
     margin-top: 0.25rem;
     float: left;
 }
-.mb-1{
+
+.mb-1 {
     font-size: 0.9rem !important;
 }
 
-#intNewsDesc h4 a{
+#intNewsDesc h4 a {
     font-weight: bold;
     color: #00301D;
     text-decoration: none;
     transition: 0.7s;
 }
 
-#intNewsDesc h4 a:hover{
+#intNewsDesc h4 a:hover {
     font-weight: bold;
     color: #DE5A37;
     transition: 0.7s;
 }
-#intNewsDesc p:nth-child(3){
+
+#intNewsDesc p:nth-child(3) {
     text-align: justify;
 }
 
@@ -186,30 +186,30 @@
     background-color: white;
     font-size: 1.2rem;
     font-family: papernotes;
-    
+
 }
 
-.previous2{
+.previous2 {
     color: black;
     margin-right: 0.5rem;
 }
 
-.next2{
+.next2 {
     color: #F6BA0A;
     margin-left: 0.5rem;
 }
 
-.controller{
+.controller {
     margin-top: 1rem !important;
 }
 
 
 /* bagian video principal */
-#principalTitle{
+#principalTitle {
     width: 250px;
     background-color: #00301D;
     color: #F6BA0A;
-    padding: 0.5rem 3rem ;
+    padding: 0.5rem 3rem;
     border-radius: 1.5rem;
     margin-left: auto;
     margin-right: auto;
@@ -220,26 +220,26 @@
     font-style: italic;
     margin-top: 3.5rem;
     margin-bottom: 1.5rem;
-   
+
 }
 
-#principalTitle p{
+#principalTitle p {
     margin-bottom: 0rem;
 }
 
-#principalVideoPlayer{
+#principalVideoPlayer {
     width: 93%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-#principalVideoPlayer iframe{
+#principalVideoPlayer iframe {
     border-radius: 2rem;
     padding: 1rem;
 }
 
-#principalVideoDesc{
+#principalVideoDesc {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -249,16 +249,12 @@
 
 
 /* bagian our partner */
-#ourPartner{
+#ourPartner {
     width: 90%;
     /* background-color: red; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3.5rem;
-}
-#partnerImage{
-    width: 15.625rem;
-    height: 15.625rem;
 }
 
 #partnerImage img{
@@ -278,7 +274,8 @@
     font-size: 2.5rem;
     margin-bottom: 0rem;
 }
-#partnerTitle p:nth-child(2){
+
+.title-2 p:nth-child(2) {
     color: #F6BA0A;
     font-family: papernotes;
     font-size: 2.5rem;
@@ -287,14 +284,13 @@
 }
 
 /* bagian footer */
-.col-4.mb-2{
+.col-4.mb-2 {
     margin-left: 2rem;
 }
 
-footer.page-section{
+footer.page-section {
     border-top: 3rem #F6BA0A solid;
 }
-
 
 /* halaman international about */
 
@@ -314,8 +310,45 @@ footer.page-section{
     border-bottom: 0.3rem dotted #F6BA0A;
 }
 
+#sliderTestimoni {
+    height: 80%;
+}
+
+#studentTesti {
+    background: #F6F6F6;
+    height: 500px;
+    clip-path: polygon(0% 0%,
+            100% 10%,
+            100% 90%,
+            0% 100%);
+    margin: 5rem 0;
+}
+
 .mx-2{
     margin-top: 3rem;
+}
+
+.img-slider {
+    height: 250px;
+    width: 250px;
+}
+
+.img-slider+p {
+    width: 350px;
+}
+
+.carousel-inner {
+    padding-bottom: 1.5rem;
+}
+
+.carousel {
+    height: auto !important;
+    width: 90%;
+    padding-top: 1rem;
+}
+
+.carousel-control-prev-icon {
+    color: black;
 }
 
 #leftPanel{
@@ -390,3 +423,41 @@ footer.page-section{
     text-align: center;
 
 }
+/* =======
+#studentTesti {
+    background: #F6F6F6;
+    height: 500px;
+    clip-path: polygon(0% 0%,
+            100% 10%,
+            100% 90%,
+            0% 100%);
+    margin: 5rem 0;
+}
+
+#sliderTestimoni {
+    height: 80%;
+}
+
+.img-slider {
+    height: 250px;
+    width: 250px;
+}
+
+.img-slider+p {
+    width: 350px;
+}
+
+.carousel-inner {
+    padding-bottom: 1.5rem;
+}
+
+.carousel {
+    height: auto !important;
+    width: 90%;
+    padding-top: 1rem;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+}
+>>>>>>> 4f703d152b24b86806f2500a819e7f96f8a8e6a5 */
