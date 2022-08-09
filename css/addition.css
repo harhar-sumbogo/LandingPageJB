@@ -780,3 +780,7 @@ a#breadcrumb:nth-last-child(1):hover {
     margin-bottom: 0.8rem;
 }
 
+#nilai-dasar .row {
+    margin-left: 0;
+    margin-right: 0;
+}
