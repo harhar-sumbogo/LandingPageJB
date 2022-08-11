@@ -28,7 +28,7 @@
 
 #deskripsi-nilai-dasar {
     padding: 4rem calc(var(--bs-gutter-x) * 2);
-    background: #788D85;
+    background: #677B73;
     color: white;
 }
 
@@ -57,7 +57,7 @@
 }
 
 #item-nilai-dasar {
-    background: #436B5B;
+    background-color: #00301D;
     padding: 2rem calc(var(--bs-gutter-x) * 0.5);
     color: white;
 }
@@ -294,7 +294,7 @@ table {
 }
 
 footer.page-section {
-    border-top: 1rem #FF9800 solid;
+    border-top: 1rem #F6C844 solid;
     background-color: #00301D;
     color: white;
     padding-bottom: 0rem !important;
@@ -324,8 +324,6 @@ footer.page-section .col img {
     font-size: 0.9rem;
     border-bottom: 2px solid rgb(214, 214, 214);
 }
-
-
 
 #breadcrumb {
     text-decoration: none;
