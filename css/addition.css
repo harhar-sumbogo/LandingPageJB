@@ -787,28 +787,33 @@ a#breadcrumb:nth-last-child(1):hover {
 
 /* halaman list berita */
 
-#panelJudul{
+#panelJudul {
     border-bottom: 2px solid rgb(214, 214, 214);
 }
 
-#panelGambar img{
+#panelGambar img {
     width: 100%;
 }
 
-#panelJudul a{
+#panelJudul a {
     text-decoration: none;
-    color: #00301E ;
+    color: #00301E;
     transition: 0.4s all ease;
 }
-#panelJudul a:hover{
+
+#panelJudul a:hover {
     text-decoration: none;
     color: #DE5A37;
     transition: 0.4s all ease;
 }
 
-#judulBerita{
+#judulBerita {
     font-weight: bold;
     font-size: 1.3rem;
     font-size: clamp(0.8rem, 4vw, 1.3rem);
-    
+
+}
+
+footer .logo-jb {
+    width: 150px;
 }
