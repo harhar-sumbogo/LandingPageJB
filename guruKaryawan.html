@@ -37,28 +37,30 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
         <div class="container-fluid px-5">
-            <a class="navbar-brand " href="#page-top">
+            <a class="navbar-brand " href="index.html">
                 <img src="assets/logo/sma-jb.png" alt="logo-jb">
             </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavLightDropdown" aria-controls="navbarNavLightDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavLightDropdown">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="listBerita.html">BERITA</a></li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a class="nav-link" href="" id="dropdown-profile" data-bs-toggle="dropdown"
-                                aria-expanded="false">PROFILE</a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown-profile">
-                                <li><a class="dropdown-item" href="#">SEJARAH</a></li>
-                                <li><a class="dropdown-item" href="visiMisi.html">VISI MISI</a></li>
-                                <li><a class="dropdown-item" href="#">MAKNA LOGO</a></li>
-                                <li><a class="dropdown-item" href="#">MARS</a></li>
-                                <li><a class="dropdown-item" href="#">JAJARAN DIREKSI</a></li>
-                                <li><a class="dropdown-item" href="#">GURU & KARYAWAN</a></li>
-                            </ul>
-                        </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="dropdownMenuProfile" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                            PROFILE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuProfile">
+                            <li><a class="dropdown-item" href="#">SEJARAH</a></li>
+                            <li><a class="dropdown-item" href="visiMisi.html">VISI MISI</a></li>
+                            <li><a class="dropdown-item" href="#">MAKNA LOGO</a></li>
+                            <li><a class="dropdown-item" href="#">MARS</a></li>
+                            <li><a class="dropdown-item" href="#">JAJARAN DIREKSI</a></li>
+                            <li><a class="dropdown-item" href="#">GURU & KARYAWAN</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">ADMISI</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">AKADEMIK</a></li>
@@ -70,7 +72,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Masthead-->
     <header class="masthead">
         <div id="carouselPromosi" class="carousel slide" data-interval="false">

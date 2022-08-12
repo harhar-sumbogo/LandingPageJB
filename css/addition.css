@@ -477,10 +477,6 @@ a#breadcrumb:nth-last-child(1):hover {
 
 
 /* halaman visi misi */
-#visiMisi {
-    padding-right: 0rem;
-}
-
 #visi {
     margin-top: 3.7rem;
 }
@@ -550,10 +546,6 @@ a#breadcrumb:nth-last-child(1):hover {
 }
 
 /* halaman makna logo */
-
-#maknaLogo {
-    padding-right: 0rem;
-}
 
 #titleMaknaLogo {
     position: absolute;
