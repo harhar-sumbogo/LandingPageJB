@@ -817,3 +817,26 @@ a#breadcrumb:nth-last-child(1):hover {
 footer .logo-jb {
     width: 150px;
 }
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        margin-top: 15px !important;
+    }
+}
+
+.dropdown-item {
+    color: #999999;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    color: #16500c;
+}
