@@ -648,7 +648,8 @@ a#breadcrumb:nth-last-child(1):hover {
 
 #marsDesc {
     text-align: center;
-    margin-top: 2.4rem
+    margin-top: 2.4rem;
+    font-family: poppins;
 }
 
 #marsDesc p:nth-child(1) {
