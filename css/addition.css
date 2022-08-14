@@ -1,3 +1,8 @@
+@font-face {
+    font-family: poppins;
+    src: url("/font/Poppins-Regular.otf");
+}
+
 .text-center.fw-bold {
     letter-spacing: 0.625rem;
     color: #00301E;
@@ -54,8 +59,16 @@
 #deskripsi-nilai-dasar>p {
     margin-top: 20px;
     text-align: justify;
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
+#item-nilai-dasar{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
 #item-nilai-dasar {
     background-color: #00301D;
     padding: 2rem calc(var(--bs-gutter-x) * 0.5);
@@ -73,6 +86,9 @@
     font-weight: bolder;
     font-style: italic;
     color: #FFA726;
+    font-family: poppins;
+    font-weight: bold;
+   
 }
 
 #item-nilai-dasar>.row {
@@ -91,7 +107,10 @@
 
 #kepala-sekolah>p {
     text-align: center;
-    margin: 10px 30px;
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+
 }
 
 @media (max-width: 992px) {
@@ -255,8 +274,6 @@ table {
 }
 
 .btn.btn-success {
-    margin-left: 2%;
-    margin-top: 2%;
     background-color: #00301E;
     border: 0.125rem solid white;
     padding: 1rem 0.7rem;
@@ -811,6 +828,7 @@ footer .logo-jb {
 .dropdown-menu {
     border: none;
     border-radius: 0;
+    font-family: poppins;
 
 }
 
@@ -830,3 +848,28 @@ footer .logo-jb {
 .dropdown-item:hover {
     color: #16500c;
 }
+
+
+/* halaman index.html */
+#container-news p{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+#container-news h3{
+    font-family: poppins;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.published p{
+    font-size: 1rem !important;
+}
+
+footer.page-section{
+    font-family: poppins;
+    font-size: 1.1rem;
+    ine-height: 1.8rem;
+
+} 
