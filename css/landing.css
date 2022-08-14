@@ -79,3 +79,11 @@ main {
 #info .row {
     flex-wrap: unset;
 }
+
+.btn.btn-warning.text-white{
+    background-color: #FFA726;
+}
+
+.btn.btn-warning.text-white:hover{
+    background-color: transparent;
+}
