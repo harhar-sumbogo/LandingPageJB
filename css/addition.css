@@ -811,6 +811,12 @@ a#breadcrumb:nth-last-child(1):hover {
     margin-left: 0;
     margin-right: 0;
 }
+/* halaman visi misi */
+#visiMisi{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
 
 /* halaman list berita */
 #itemBerita{
