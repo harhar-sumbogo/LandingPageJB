@@ -475,10 +475,6 @@ a#breadcrumb:nth-last-child(1):hover {
 
 
 /* halaman visi misi */
-#visiMisi {
-    padding-right: 0rem;
-}
-
 #visi {
     margin-top: 3.7rem;
 }
@@ -548,10 +544,6 @@ a#breadcrumb:nth-last-child(1):hover {
 }
 
 /* halaman makna logo */
-
-#maknaLogo {
-    padding-right: 0rem;
-}
 
 #titleMaknaLogo {
     position: absolute;
@@ -785,28 +777,56 @@ a#breadcrumb:nth-last-child(1):hover {
 
 /* halaman list berita */
 
-#panelJudul{
+#panelJudul {
     border-bottom: 2px solid rgb(214, 214, 214);
 }
 
-#panelGambar img{
+#panelGambar img {
     width: 100%;
 }
 
-#panelJudul a{
+#panelJudul a {
     text-decoration: none;
-    color: #00301E ;
+    color: #00301E;
     transition: 0.4s all ease;
 }
-#panelJudul a:hover{
+
+#panelJudul a:hover {
     text-decoration: none;
     color: #DE5A37;
     transition: 0.4s all ease;
 }
 
-#judulBerita{
+#judulBerita {
     font-weight: bold;
     font-size: 1.3rem;
     font-size: clamp(0.8rem, 4vw, 1.3rem);
-    
+
+}
+
+footer .logo-jb {
+    width: 150px;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        margin-top: 15px !important;
+    }
+}
+
+.dropdown-item {
+    color: #999999;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    color: #16500c;
 }
