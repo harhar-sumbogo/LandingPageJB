@@ -3,6 +3,11 @@
     src: url("/font/Poppins-Regular.otf");
 }
 
+@font-face {
+    font-family: yaldevi;
+    src: url("/font/Yaldevi.ttf");
+}
+
 .text-center.fw-bold {
     letter-spacing: 0.625rem;
     color: #00301E;
@@ -579,6 +584,7 @@ a#breadcrumb:nth-last-child(1):hover {
     height: 5.25rem;
     font-weight: bold;
     text-shadow: 2px 2px #474747;
+
 }
 
 #titleMaknaLogo span {
@@ -714,6 +720,14 @@ a#breadcrumb:nth-last-child(1):hover {
 .material-icons {
     font-size: 25;
     color: #000000;
+}
+
+#fasilitas{
+    font-family: poppins;
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    
 }
 
 #guruKaryawanGambarBackGround,
