@@ -338,8 +338,9 @@ footer.page-section .col img {
 /* style detail.html */
 
 .container.mt-5 {
-    font-size: 0.9rem;
+    font-size: 1rem !important;
     border-bottom: 2px solid rgb(214, 214, 214);
+    font-family: poppins;
 }
 
 #breadcrumb {
@@ -362,6 +363,8 @@ a#breadcrumb:nth-last-child(1):hover {
 
 #title {
     font-size: 1.8rem;
+    font-family: poppins;
+    font-weight: bold;
 }
 
 #titlePublish {
@@ -870,6 +873,21 @@ footer .logo-jb {
 footer.page-section{
     font-family: poppins;
     font-size: 1.1rem;
-    ine-height: 1.8rem;
-
 } 
+
+/* halaman index */
+#navbarNavLightDropdown{
+    font-family: poppins !important;
+}
+
+#infoPublisher{
+    font-family: poppins;
+    font-size: 1rem !important;
+}
+
+.row.pt-4{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    
+}
