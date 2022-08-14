@@ -812,7 +812,9 @@ a#breadcrumb:nth-last-child(1):hover {
 }
 
 /* halaman list berita */
-
+#itemBerita{
+    font-family: poppins;
+}
 #panelJudul {
     border-bottom: 2px solid rgb(214, 214, 214);
 }
@@ -835,8 +837,7 @@ a#breadcrumb:nth-last-child(1):hover {
 
 #judulBerita {
     font-weight: bold;
-    font-size: 1.3rem;
-    font-size: clamp(0.8rem, 4vw, 1.3rem);
+    font-size: clamp(0.8rem, 4vw, 1.5rem);
 
 }
 
