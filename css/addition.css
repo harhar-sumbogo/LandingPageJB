@@ -908,3 +908,10 @@ footer.page-section{
     line-height: 1.8rem;
     
 }
+
+/* halaman maknaLogo */
+#maknaLogo{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
