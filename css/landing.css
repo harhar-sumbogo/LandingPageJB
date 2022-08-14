@@ -1,3 +1,8 @@
+@font-face {
+    font-family: poppins;
+    src: url("/font/Poppins-Regular.otf");
+}
+
 #logo-jb>img {
     width: 5rem;
 }
@@ -74,6 +79,11 @@ main {
 #info {
     font-size: 20px;
     width: 70%;
+    font-family: poppins;
+}
+
+#whatsapp button{
+    font-family: poppins !important;
 }
 
 #info .row {
@@ -86,4 +96,23 @@ main {
 
 .btn.btn-warning.text-white:hover{
     background-color: transparent;
+}
+
+#contact-landing{
+    font-family: poppins;
+}
+
+#footer-landing{
+    font-family: poppins;
+}
+
+#main-landing{
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+
+#go-home button{
+    font-family: poppins;
 }
