@@ -1,21 +1,21 @@
 @font-face {
     font-family: dDiam;
-    src: url("/font/dDiam.ttf");
+    src: url("../font/dDiam.ttf");
 }
 
 @font-face {
     font-family: cdSans;
-    src: url("/font/ChildrenSans.ttf");
+    src: url("../font/ChildrenSans.ttf");
 }
 
 @font-face {
     font-family: papernotes;
-    src: url("/font/Papernotes.otf");
+    src: url("../font/Papernotes.otf");
 }
 
 @font-face {
     font-family: poppins;
-    src: url("/font/Poppins-Regular.otf");
+    src: url("../font/Poppins-Regular.otf");
 }
   
 #backgroundIntIndex {
@@ -23,7 +23,7 @@
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/Pesta\ Nama\ St\ 1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/pestaNama.jpg");
     background-size: cover;
 }
 
