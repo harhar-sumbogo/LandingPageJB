@@ -689,18 +689,19 @@ a#breadcrumb:nth-last-child(1):hover {
 
 .bingkai {
     width: 15.8rem;
-    background-color: #788D85;
+    background: #EEEEEE;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 8px 4px 5px 2px #00000054;
 }
 
 .bingkai p {
     text-align: center;
     margin-top: 1rem;
-    color: white;
+    color: #00301D;
     font-weight: bold;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
@@ -843,4 +844,24 @@ footer.page-section {
 
 .sejarah-item {
     padding-top: 20px;
+}
+
+/* halaman rektor */
+#rektor {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#rektor .bingkai {
+    margin-bottom: 0;
+}
+
+.bingkai img {
+    width: 13.75rem;
+    max-width: 250px;
+}
+
+.bingkai+p {
+    text-align: center;
+    font-weight: bold;
 }
