@@ -69,11 +69,12 @@
     line-height: 1.8rem;
 }
 
-#item-nilai-dasar{
+#item-nilai-dasar {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
+
 #item-nilai-dasar {
     background-color: #00301D;
     padding: 2rem calc(var(--bs-gutter-x) * 0.5);
@@ -93,7 +94,7 @@
     color: #FFA726;
     font-family: poppins;
     font-weight: bold;
-   
+
 }
 
 #item-nilai-dasar>.row {
@@ -445,7 +446,6 @@ a#breadcrumb:nth-last-child(1):hover {
 
 .slide-img {
     width: 100%;
-    height: 250px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -458,15 +458,15 @@ a#breadcrumb:nth-last-child(1):hover {
 
 .slide-img a {
     text-decoration: none;
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: 0.8s;
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
-    opacity: 0;
+    opacity: 1;
 }
 
-.slide-img:hover a {
+/* .slide-img:hover a {
     opacity: 1;
     transform: scale(1);
 }
@@ -475,29 +475,7 @@ a#breadcrumb:nth-last-child(1):hover {
     box-shadow: 0 0 0 200px #DE5A37 inset;
 
 
-}
-
-.img-1 {
-    background-image: url(https://img.youtube.com/vi/AG0XhiMC44c/maxresdefault.jpg);
-}
-
-
-.img-2 {
-    background-image: url(https://img.youtube.com/vi/ajsRC-lu2I8/maxresdefault.jpg);
-}
-
-.img-3 {
-    background-image: url(https://img.youtube.com/vi/pONr-cABaoI/maxresdefault.jpg);
-}
-
-.img-4 {
-    background-image: url(https://img.youtube.com/vi/K7XXWA36_IY/maxresdefault.jpg);
-}
-
-.img-5 {
-    background-image: url(https://img.youtube.com/vi/APWv39DZzww/maxresdefault.jpg);
-}
-
+} */
 
 /* halaman visi misi */
 #visi {
@@ -724,12 +702,12 @@ a#breadcrumb:nth-last-child(1):hover {
     color: #000000;
 }
 
-#fasilitas{
+#fasilitas {
     font-family: poppins;
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
-    
+
 }
 
 #guruKaryawanGambarBackGround,
@@ -811,17 +789,19 @@ a#breadcrumb:nth-last-child(1):hover {
     margin-left: 0;
     margin-right: 0;
 }
+
 /* halaman visi misi */
-#visiMisi{
+#visiMisi {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
 
 /* halaman list berita */
-#itemBerita{
+#itemBerita {
     font-family: poppins;
 }
+
 #panelJudul {
     border-bottom: 2px solid rgb(214, 214, 214);
 }
@@ -878,46 +858,46 @@ footer .logo-jb {
 
 
 /* halaman index.html */
-#container-news p{
+#container-news p {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
 
-#container-news h3{
+#container-news h3 {
     font-family: poppins;
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.published p{
+.published p {
     font-size: 1rem !important;
 }
 
-footer.page-section{
+footer.page-section {
     font-family: poppins;
     font-size: 1.1rem;
-} 
+}
 
 /* halaman index */
-#navbarNavLightDropdown{
+#navbarNavLightDropdown {
     font-family: poppins !important;
 }
 
-#infoPublisher{
+#infoPublisher {
     font-family: poppins;
     font-size: 1rem !important;
 }
 
-.row.pt-4{
+.row.pt-4 {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
-    
+
 }
 
 /* halaman maknaLogo */
-#maknaLogo{
+#maknaLogo {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;

@@ -1,3 +1,11 @@
+<?php
+    require "api_method.php";
+    $yt_token = "AIzaSyDK7QhbtRsM2ah0_3nZhv9nbsYpq49JODg";
+    $yt_channel_id = "UCi9joRYtTKGgLXHNqwOwCEQ";
+    $yt_num_of_video = 5;
+    $yt_data = get_youtube_video($yt_token, $yt_channel_id, $yt_num_of_video);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,8 +47,9 @@
             <a class="navbar-brand " href="index.html">
                 <img src="assets/logo/sma-jb.png" alt="logo-jb">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavLightDropdown"
-                aria-controls="navbarNavLightDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavLightDropdown" aria-controls="navbarNavLightDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavLightDropdown">
@@ -513,60 +522,18 @@
             <div class="subcontainer">
                 <div class="slider-wrapper">
                     <div class="my-slider">
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-1">
-                                    <a href="#">Open in Youtube</a>
-                                </div>
-                                <div>
-                                    <h4>EXAMEN CONSCIENTIEAE</h4>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-2">
-                                    <a href="#">Open in Youtube</a>
-                                </div>
-                                <div>
-                                    <h4>Perpus 123 : Manuk Dadali Medley</h4>
+                        <?php foreach($yt_data->items as $yt_video) : ?>
+                            <div>
+                                <div class="slide">
+                                    <div class="slide-img">
+                                        <a href="<?='https://www.youtube.com/watch?v=' . $yt_video->id->videoId?>"><img class="img-fluid" src="<?= $yt_video->snippet->thumbnails->high->url ?>" ></a>
+                                    </div>
+                                    <div>
+                                        <h4><?= $yt_video->snippet->title ?></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-3">
-                                    <a href="#">Open in Youtube</a>
-                                </div>
-                                <div>
-                                    <h4>Perpus 123 : Ibu Kita Kartini (Cover)</h4>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-4">
-                                    <a href="#">Open in Youtube</a>
-                                </div>
-                                <div>
-                                    <h4>Misa Rabu Abu 2022</h4>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-5">
-                                    <a href="#">Open in Youtube</a>
-                                </div>
-                                <div>
-                                    <h4>Misa Pesta Nama St. John De Britto</h4>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                     <div class="controller">
                         <div id="controls">
@@ -649,7 +616,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </footer>
     <!-- Bootstrap core JS-->
