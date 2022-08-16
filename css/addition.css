@@ -761,17 +761,30 @@ footer .logo-jb {
 
 }
 
-@media (min-width: 992px) {
-    .dropdown-menu {
-        margin-top: 15px !important;
-    }
-}
-
 .dropdown-item {
     color: #999999;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: 0.9rem;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        margin-top: 20px !important;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+}
+
+.navbar-shrink .dropdown-item {
+    color: #999999;
+}
+
+.navbar-shrink .dropdown-menu {
+    background: white;
 }
 
 .dropdown-item:hover {
