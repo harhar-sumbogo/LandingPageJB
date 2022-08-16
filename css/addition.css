@@ -758,7 +758,7 @@ footer .logo-jb {
     border: none;
     border-radius: 0;
     font-family: poppins;
-
+    transition: background-color 0.2s ease;
 }
 
 .dropdown-item {
@@ -771,7 +771,7 @@ footer .logo-jb {
 @media (min-width: 992px) {
     .dropdown-menu {
         margin-top: 20px !important;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(0, 0, 0, 0.3);
     }
 
     .dropdown-item {
@@ -857,6 +857,21 @@ footer.page-section {
 
 .sejarah-item {
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sejarah-item .img-container {
+    padding: 50px;
+    box-shadow: 0 0 5px 5px #00000054;
+    width: max-content;
+    background: #F7F7F7;
+    color: #000000;
+}
+
+.img-container>h4 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: end;
 }
 
 /* halaman rektor */
