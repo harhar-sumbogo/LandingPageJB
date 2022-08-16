@@ -116,3 +116,7 @@ main {
 #go-home button{
     font-family: poppins;
 }
+
+.row .justify-content-center{
+    font-family: poppins !important;
+}

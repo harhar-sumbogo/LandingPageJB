@@ -892,3 +892,12 @@ footer.page-section {
     text-align: center;
     font-weight: bold;
 }
+
+/* halaman jajaran direksi */
+#kepalaSekolahJudul,#wakilKepalaSekolahJudul{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00301D;
+    text-shadow: 3px 4px #bbbbbb;
+    line-height: 2.5rem;
+}
