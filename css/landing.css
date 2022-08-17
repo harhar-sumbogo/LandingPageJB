@@ -38,9 +38,6 @@ footer {
 
 main {
     color: white !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/landing.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #nama-jb>h1 {
@@ -82,7 +79,7 @@ main {
     font-family: poppins;
 }
 
-#whatsapp button{
+#whatsapp button {
     font-family: poppins !important;
 }
 
@@ -90,33 +87,62 @@ main {
     flex-wrap: unset;
 }
 
-.btn.btn-warning.text-white{
+.btn.btn-warning.text-white {
     background-color: #FFA726;
 }
 
-.btn.btn-warning.text-white:hover{
+.btn.btn-warning.text-white:hover {
     background-color: transparent;
 }
 
-#contact-landing{
+#contact-landing {
     font-family: poppins;
 }
 
-#footer-landing{
+#footer-landing {
     font-family: poppins;
 }
 
-#main-landing{
+#main-landing {
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
 
 
-#go-home button{
+#go-home button {
     font-family: poppins;
 }
 
-.row .justify-content-center{
+.row .justify-content-center {
     font-family: poppins !important;
+}
+
+.content-landing {
+    margin: 0;
+    font-weight: normal;
+    height: auto;
+    font-size: unset;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.img-landing {
+    height: 93vh;
+    padding: 0;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-item>video {
+    width: auto;
+    height: 100vh;
+}
+
+@media (min-width: 1409px) {
+    .carousel-item>video {
+        width: 100vw;
+        height: auto;
+    }
 }
