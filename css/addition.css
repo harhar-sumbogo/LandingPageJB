@@ -837,8 +837,7 @@ footer.page-section {
     line-height: 1.8rem;
 }
 
-.img-landing,
-.img-landing>img {
+.img-landing {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -850,7 +849,29 @@ footer.page-section {
 }
 
 .img-landing>img {
-    height: auto;
+    height: 100%;
+    width: auto;
+}
+
+@media (min-aspect-ratio:16/9) {
+
+    .img-fluid,
+    .img-landing>img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:991px) {
+    .img-landing>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-fluid {
+        height: 100%;
+        width: auto;
+    }
 }
 
 /* halaman sejarah */
@@ -872,7 +893,6 @@ footer.page-section {
 .sejarah-item .img-container {
     padding: 50px;
     box-shadow: 0 0 5px 5px #00000054;
-    width: max-content;
     background: #F7F7F7;
     color: #000000;
 }
