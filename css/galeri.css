@@ -72,3 +72,7 @@
         margin: 25px;
     }
 }
+
+.galeri-box>* {
+    width: 100% !important;
+}
