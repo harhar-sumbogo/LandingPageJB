@@ -123,7 +123,8 @@ main {
     font-weight: normal;
     height: auto;
     font-size: unset;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 93vh;
 }
 
 .img-landing {
@@ -131,7 +132,7 @@ main {
     padding: 0;
 }
 
-.carousel-item{
+.carousel-item {
     text-align: center;
 }
 
@@ -140,7 +141,7 @@ main {
     height: 100vh;
 }
 
-@media (min-width: 1409px) {
+@media (min-width:481px) {
     .carousel-item>video {
         width: 100vw;
         height: auto;
