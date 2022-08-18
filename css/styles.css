@@ -12396,12 +12396,6 @@ header.masthead {
     height: 100%;
     object-fit: cover;
   }
-
-  .carousel-item>video,
-  .carousel-item>img {
-    height: 100%;
-    width: auto;
-  }
 }
 
 #portfolio .container-fluid .portfolio-box,
