@@ -506,10 +506,6 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-success"><i class="bi bi-plus-lg"></i>
-                    SHOW MORE
-                </button>
-
                 <button class="btn btn-success"><i class="bi bi-instagram"></i>
                     FOLLOW ON INSTAGRAM</button>
             </div>
