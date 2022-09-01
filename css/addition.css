@@ -364,7 +364,6 @@ footer.page-section .col img {
 
 .container.mt-5 {
     font-size: 1rem !important;
-    border-bottom: 2px solid rgb(214, 214, 214);
     font-family: poppins;
 }
 
@@ -979,3 +978,5 @@ footer.page-section {
 .pengumuman .fa {
     font-size: 20px;
 }
+
+/* kurikulum */
