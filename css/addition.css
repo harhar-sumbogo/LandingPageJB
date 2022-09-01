@@ -306,8 +306,6 @@ table {
     color: #00301E
 }
 
-
-
 .social-media .row>* {
     padding: 0;
 }
@@ -942,3 +940,70 @@ footer.page-section {
     text-shadow: 3px 4px #bbbbbb;
     line-height: 2.5rem;
 }
+
+.definisi{
+    text-align: justify;
+    font-family: poppins;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+.namaRomo{
+    color: #00301E;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-style: italic;
+    border-bottom: 0.188rem solid #FF9800;
+}
+
+.wadahBaru{
+   /* float: left; */
+   display: inline;
+   
+}
+.deskripsiBaru{
+    /* padding-top: 220px; */
+    /* transform: translateY(220px); */
+    background-color: #055837;
+    /* width: 950px; */
+    z-index: -99;
+    display: inline;
+
+ 
+    /* clear: left; */
+}
+/* .wadah.row{
+    background-color:#055837;
+    color: white;
+
+} */
+
+/* .fotoRomoBaru{
+    z-index: 99;
+} */
+
+#deskripsiRomo{
+    background-color: #055837;
+    color: white;
+    border-radius: 0rem 2rem 2rem 0rem ;
+    /* transform: translateX(-200px); */
+    /* padding-left: 100px !important; */
+    /* padding-left: 60vw;  */
+}
+#fotoRomoKiri{
+    /* z-index: 99; */
+}
+
+/* #fotoRomoKiri{
+    margin-top: 100px;
+    background-color: #055837;
+    transform: translateY(-15px);
+} */
+
+/* #deskripsiJKiri{
+    background-color: #055837 !important;
+    color: white;
+    border-radius: 0rem 2rem 2rem 0rem ;
+    transform: translateX(-60vw);
+    padding-left: 60vw; 
+    width: 110vw;
+} */
