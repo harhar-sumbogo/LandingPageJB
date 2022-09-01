@@ -291,11 +291,14 @@ table {
     padding: 1rem 0.7rem;
     border-radius: 0.5rem;
 }
-
-#rightArrowShowMore:hover {
-    color: #00301E
+.btn.btn.btn-success a{
+    text-decoration: none;
+    color: white;
 }
-
+.btn.btn.btn-success a:hover{
+    text-decoration: none;
+    color: #00301E;
+}
 .btn.btn-success:hover {
     background-color: white;
     color: #00301E;
@@ -303,6 +306,13 @@ table {
     padding: 1rem 0.7rem;
     border-radius: 0.5rem;
 }
+
+
+#rightArrowShowMore:hover {
+    color: #00301E
+}
+
+
 
 .social-media .row>* {
     padding: 0;

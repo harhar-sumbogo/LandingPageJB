@@ -407,7 +407,12 @@
                 </div>
             </div>
 
-            <button class="btn btn-success">SHOW MORE<i class="fa fa-arrow-right"></i></button>
+            <a href="./listBerita.html">
+                <button class="btn btn-success">
+                    SHOW MORE<i class="fa fa-arrow-right"></i>
+                </button>
+            </a>
+
         </div>
     </section>
 
@@ -422,7 +427,7 @@
                 <div class="col m-3 d-flex justify-content-center">
                     <a href="assets/img/bg-masthead.jpg" class="portfolio-box" title="Instagram Content">
                         <img src="assets/img/bg-masthead.jpg" class="img-social-media" alt="ig">
-                        <div class="portfolio-box-caption">
+                        <div id="porto-box-caption" class="portfolio-box-caption">
                             <div class="project-name">Instagram Content</div>
                         </div>
                     </a>
@@ -506,10 +511,6 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <button type="button" class="btn btn-success"><i class="bi bi-plus-lg"></i>
-                    SHOW MORE
-                </button>
-
                 <button class="btn btn-success"><i class="bi bi-instagram"></i>
                     FOLLOW ON INSTAGRAM</button>
             </div>
