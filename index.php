@@ -407,7 +407,12 @@
                 </div>
             </div>
 
-            <button class="btn btn-success">SHOW MORE<i class="fa fa-arrow-right"></i></button>
+            <a href="./listBerita.html">
+                <button class="btn btn-success">
+                    SHOW MORE<i class="fa fa-arrow-right"></i>
+                </button>
+            </a>
+
         </div>
     </section>
 
