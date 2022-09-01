@@ -291,14 +291,17 @@ table {
     padding: 1rem 0.7rem;
     border-radius: 0.5rem;
 }
-.btn.btn.btn-success a{
+
+.btn.btn.btn-success a {
     text-decoration: none;
     color: white;
 }
-.btn.btn.btn-success a:hover{
+
+.btn.btn.btn-success a:hover {
     text-decoration: none;
     color: #00301E;
 }
+
 .btn.btn-success:hover {
     background-color: white;
     color: #00301E;
@@ -870,8 +873,6 @@ footer.page-section {
 }
 
 @media (min-aspect-ratio:16/9) {
-
-    .img-fluid,
     .img-landing>img {
         width: 100%;
         height: auto;
@@ -882,11 +883,6 @@ footer.page-section {
     .img-landing>img {
         width: 100%;
         height: auto;
-    }
-
-    .img-fluid {
-        height: 100%;
-        width: auto;
     }
 }
 
