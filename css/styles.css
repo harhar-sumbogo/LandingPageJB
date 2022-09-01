@@ -12425,7 +12425,7 @@ header.masthead {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(0, 48, 30, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -12459,3 +12459,4 @@ header.masthead {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+

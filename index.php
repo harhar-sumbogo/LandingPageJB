@@ -422,7 +422,7 @@
                 <div class="col m-3 d-flex justify-content-center">
                     <a href="assets/img/bg-masthead.jpg" class="portfolio-box" title="Instagram Content">
                         <img src="assets/img/bg-masthead.jpg" class="img-social-media" alt="ig">
-                        <div class="portfolio-box-caption">
+                        <div id="porto-box-caption" class="portfolio-box-caption">
                             <div class="project-name">Instagram Content</div>
                         </div>
                     </a>
