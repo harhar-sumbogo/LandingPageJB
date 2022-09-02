@@ -607,33 +607,45 @@ a#breadcrumb:nth-last-child(1):hover {
 
 /* halaman guru karyawan */
 
-.elementsContainer a {
-    text-decoration: none;
+.search-group label,
+.search-group input {
+    border: 0;
+    background-color: #fff;
+    border-radius: 1.5rem;
 }
 
-.elementsContainer span {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: block;
+.search-group input:focus {
+    border: none;
+    box-shadow: none;
 }
 
-.boxContainer {
-    margin: auto;
-    position: relative;
+.search-group {
     width: 300px;
-    height: 43px;
-    padding: 0px 10px;
-    border-radius: 50px;
-    background-color: white;
-    position: absolute;
-    z-index: 99;
-    left: 0;
-    right: 0;
+    display: inline-block;
+}
 
-    margin: auto;
-    /* margin-top: -19.625rem; */
-    margin-top: -20vw;
-    /* margin-top: 1rem; */
+.search-rec {
+    background: white;
+    color: #212529;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transform: translateY(-1rem);
+}
+
+.search-group>.input-group {
+    z-index: 10;
+}
+
+.search-rec>.item-rec {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0;
+    cursor: pointer;
+}
+
+.search-rec>.item-rec:hover {
+    background-color: rgba(6, 74, 0, 0.45);
 }
 
 .elementsContainer {
@@ -669,7 +681,6 @@ a#breadcrumb:nth-last-child(1):hover {
 .content-landing {
     position: absolute;
     z-index: 99;
-    font-size: clamp(2rem, 3.5vw, 5rem);
     color: white;
     left: 0;
     right: 0;
@@ -679,6 +690,10 @@ a#breadcrumb:nth-last-child(1):hover {
     text-align: center;
     height: 6.25rem;
     font-weight: bold;
+}
+
+.content-landing>p {
+    font-size: clamp(2rem, 3.5vw, 5rem);
 }
 
 .content-landing span {
