@@ -957,14 +957,14 @@ footer.page-section {
     line-height: 2.5rem;
 }
 
-<<<<<<< HEAD
-.definisi{
+.definisi {
     text-align: justify;
     font-family: poppins;
     font-size: 1.1rem;
     line-height: 1.8rem;
 }
-.namaRomo{
+
+.namaRomo {
     color: #00301E;
     font-weight: bold;
     font-size: 1.8rem;
@@ -972,12 +972,13 @@ footer.page-section {
     border-bottom: 0.188rem solid #FF9800;
 }
 
-.wadahBaru{
-   /* float: left; */
-   display: inline;
-   
+.wadahBaru {
+    /* float: left; */
+    display: inline;
+
 }
-.deskripsiBaru{
+
+.deskripsiBaru {
     /* padding-top: 220px; */
     /* transform: translateY(220px); */
     background-color: #055837;
@@ -985,9 +986,10 @@ footer.page-section {
     z-index: -99;
     display: inline;
 
- 
+
     /* clear: left; */
 }
+
 /* .wadah.row{
     background-color:#055837;
     color: white;
@@ -998,15 +1000,16 @@ footer.page-section {
     z-index: 99;
 } */
 
-#deskripsiRomo{
+#deskripsiRomo {
     background-color: #055837;
     color: white;
-    border-radius: 0rem 2rem 2rem 0rem ;
+    border-radius: 0rem 2rem 2rem 0rem;
     /* transform: translateX(-200px); */
     /* padding-left: 100px !important; */
     /* padding-left: 60vw;  */
 }
-#fotoRomoKiri{
+
+#fotoRomoKiri {
     /* z-index: 99; */
 }
 
@@ -1024,7 +1027,6 @@ footer.page-section {
     padding-left: 60vw; 
     width: 110vw;
 } */
-=======
 /* pengumuman */
 
 #daftar-pengumuman {
@@ -1060,5 +1062,50 @@ footer.page-section {
     font-size: 20px;
 }
 
-/* kurikulum */
->>>>>>> aca48578c4883298c2003c3aa64d4c69f3a8d29f
+/* galeri list */
+.img-gallery:hover {
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
+.img-modal-container {
+    top: 0%;
+    position: fixed;
+    z-index: 1031;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all .3s ease-out;
+    color: white;
+}
+
+.img-modal-container>.controller {
+    height: 5vh;
+    margin: 0;
+}
+
+.img-modal-container>.content>* {
+    height: 90vh;
+}
+
+.content img {
+    max-width: -webkit-fill-available;
+    max-height: 90vh;
+    width: auto;
+    height: fit-content;
+}
+
+.img-modal-container>.desc {
+    height: 5vh;
+}
+
+.img-modal-container>.desc>p {
+    text-align: center;
+}
+
+#close-img-modal {
+    cursor: pointer;
+}
