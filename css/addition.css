@@ -965,69 +965,48 @@ footer.page-section {
 }
 
 .namaRomo {
+    width: 60%;
     color: #00301E;
     font-weight: bold;
     font-size: 1.8rem;
     font-style: italic;
     border-bottom: 0.188rem solid #FF9800;
 }
+.namaRomo2 {
+    color: #00301E;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-style: italic;
+    border-bottom: 0.188rem solid #FF9800;
+    text-align: right;
+}
 
 .wadahBaru {
-    /* float: left; */
     display: inline;
-
 }
 
 .deskripsiBaru {
-    /* padding-top: 220px; */
-    /* transform: translateY(220px); */
     background-color: #055837;
-    /* width: 950px; */
     z-index: -99;
     display: inline;
 
-
-    /* clear: left; */
 }
-
-/* .wadah.row{
-    background-color:#055837;
-    color: white;
-
-} */
-
-/* .fotoRomoBaru{
-    z-index: 99;
-} */
 
 #deskripsiRomo {
     background-color: #055837;
     color: white;
     border-radius: 0rem 2rem 2rem 0rem;
-    /* transform: translateX(-200px); */
-    /* padding-left: 100px !important; */
-    /* padding-left: 60vw;  */
 }
 
-#fotoRomoKiri {
-    /* z-index: 99; */
-}
-
-/* #fotoRomoKiri{
-    margin-top: 100px;
-    background-color: #055837;
-    transform: translateY(-15px);
-} */
-
-/* #deskripsiJKiri{
-    background-color: #055837 !important;
+#deskripsiRomo2{
+    background-color: #055837 ;
     color: white;
-    border-radius: 0rem 2rem 2rem 0rem ;
-    transform: translateX(-60vw);
-    padding-left: 60vw; 
-    width: 110vw;
-} */
-/* pengumuman */
+    border-radius: 2rem 0rem 0rem 2rem;
+}
+
+#fotoRomoKiri img {
+    width: 100%;
+}
 
 #daftar-pengumuman {
     margin-top: 3rem;
