@@ -1088,3 +1088,61 @@ footer.page-section {
 #close-img-modal {
     cursor: pointer;
 }
+
+/* slide up judul berita */
+#tagBerita{
+    background-color: #00301D
+}
+
+#tagBerita p{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home-text{
+    text-align: center;
+ 	position: relative;
+ 	z-index: 2;
+}
+
+p#animate-Text{
+    margin: 0;
+    overflow: hidden;
+}
+
+p#animate-Text span{
+    color:#ff2c45;
+    display: inline-block;
+    display: none ;
+}
+
+p#animate-Text span.text-in{
+	display: block;
+	animation: textIn .5s ease;
+}
+
+p#animate-Text span.text-out{
+	animation: textOut .5s ease;
+}
+
+@keyframes textIn{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes textOut{
+	0%{
+		transform: translateY(0%);
+	}
+	100%{
+		transform: translateY(-100%);
+
+	}
+}
+
