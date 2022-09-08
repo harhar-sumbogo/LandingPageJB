@@ -86,13 +86,13 @@
 
     <div class="container-fluid mt-5" id="beritaSlideUp">
         <div class="row">
-            <div id="tagBerita" class="col-2 py-2 align-self-center">
+            <div id="tagBerita" class="col-12 col-sm-2 py-2 align-self-center">
                 <p>
                     Berita
                 </p>
             </div>
 
-            <div class="col-10 align-self-center">
+            <div id="kolomJudulBerita" class="col-12 col-sm-10 py-2 align-self-center">
                 <div class="home-text">
                     <p id="animate-Text" class="animate-text">
                         <span>Ini merupakan berita satu</span>
@@ -349,43 +349,12 @@
         integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- slide up judul berita -->
+    <script src="./js/scripts3.js"></script>
     <script>
         $(".pengumuman").click(function () {
             $(this).children("i").toggleClass("fa-caret-up")
-        })
-
-
-        // judul berita slide up 
-        document.getElementsByClassName("example");
-        const txts=document.querySelector(".animate-text").children;
-        const txtsLen=txts.length;
-        let index=0;
-        const textInTimer=3000
-        const textOutTimer=2800;
-
-        function animateText() {
-            for(let i=0; i<txtsLen; i++){
-                txts[i].classList.remove("text-in","text-out");  
-            }
-            txts[index].classList.add("text-in");
-
-            setTimeout(function(){
-                txts[index].classList.add("text-out");              
-            },textOutTimer);
-
-            setTimeout(function(){
-                if(index == txtsLen-1){
-                    index=0;
-                }
-                else{
-                    index++;
-                    }
-                animateText();
-            },textInTimer); 
-        }
-
-        window.onload=animateText;
-   
+        })   
     </script>
 </body>
 

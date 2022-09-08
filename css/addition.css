@@ -1100,6 +1100,8 @@ footer.page-section {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .home-text{
@@ -1114,9 +1116,12 @@ p#animate-Text{
 }
 
 p#animate-Text span{
-    color:#ff2c45;
+    color:rgba(0, 48, 29, 0.79);
     display: inline-block;
     display: none ;
+    font-family: poppins;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 p#animate-Text span.text-in{
@@ -1144,5 +1149,9 @@ p#animate-Text span.text-out{
 		transform: translateY(-100%);
 
 	}
+}
+
+#kolomJudulBerita{
+    background-color: rgba(6, 74, 0, 0.17);
 }
 
