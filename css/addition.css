@@ -609,7 +609,7 @@ a#breadcrumb:nth-last-child(1):hover {
 .search-group input {
     border: 0;
     background-color: #fff;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
 }
 
 .search-group input:focus {
@@ -622,14 +622,28 @@ a#breadcrumb:nth-last-child(1):hover {
     display: inline-block;
 }
 
-.search-rec {
-    background: white;
+.ui-autocomplete {
     color: #212529;
-    border-radius: 0 0 1.5rem 1.5rem;
+    border-radius: 1rem;
     padding: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    transform: translateY(-1rem);
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid rgba(6, 74, 0, 0.45);
+    background: rgba(6, 74, 0, 0.45);
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.ui-icon-background,
+.ui-state-active .ui-icon-background {
+    border: rgba(6, 74, 0, 0.45);
+    background-color: #ffffff;
 }
 
 .search-group>.input-group {
@@ -640,10 +654,8 @@ a#breadcrumb:nth-last-child(1):hover {
     padding: 0.5rem 0.5rem;
     margin: 0 0;
     cursor: pointer;
-}
-
-.search-rec>.item-rec:hover {
-    background-color: rgba(6, 74, 0, 0.45);
+    border-radius: 1rem;
+    margin-top: 5px;
 }
 
 .elementsContainer {
@@ -972,6 +984,7 @@ footer.page-section {
     font-style: italic;
     border-bottom: 0.188rem solid #FF9800;
 }
+
 .namaRomo2 {
     color: #00301E;
     font-weight: bold;
@@ -998,8 +1011,8 @@ footer.page-section {
     border-radius: 0rem 2rem 2rem 0rem;
 }
 
-#deskripsiRomo2{
-    background-color: #055837 ;
+#deskripsiRomo2 {
+    background-color: #055837;
     color: white;
     border-radius: 2rem 0rem 0rem 2rem;
 }
@@ -1090,11 +1103,11 @@ footer.page-section {
 }
 
 /* slide up judul berita */
-#tagBerita{
+#tagBerita {
     background-color: #00301D
 }
 
-#tagBerita p{
+#tagBerita p {
     color: white;
     font-family: poppins;
     text-align: center;
@@ -1104,54 +1117,56 @@ footer.page-section {
     font-weight: bold;
 }
 
-.home-text{
+.home-text {
     text-align: center;
- 	position: relative;
- 	z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
-p#animate-Text{
+p#animate-Text {
     margin: 0;
     overflow: hidden;
 }
 
-p#animate-Text span{
-    color:rgba(0, 48, 29, 0.79);
+p#animate-Text span {
+    color: rgba(0, 48, 29, 0.79);
     display: inline-block;
-    display: none ;
+    display: none;
     font-family: poppins;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-p#animate-Text span.text-in{
-	display: block;
-	animation: textIn .5s ease;
+p#animate-Text span.text-in {
+    display: block;
+    animation: textIn .5s ease;
 }
 
-p#animate-Text span.text-out{
-	animation: textOut .5s ease;
+p#animate-Text span.text-out {
+    animation: textOut .5s ease;
 }
 
-@keyframes textIn{
-	0%{
-		transform: translateY(100%);
-	}
-	100%{
-		transform: translateY(0%);
-	}
-}
-@keyframes textOut{
-	0%{
-		transform: translateY(0%);
-	}
-	100%{
-		transform: translateY(-100%);
+@keyframes textIn {
+    0% {
+        transform: translateY(100%);
+    }
 
-	}
+    100% {
+        transform: translateY(0%);
+    }
 }
 
-#kolomJudulBerita{
+@keyframes textOut {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+
+    }
+}
+
+#kolomJudulBerita {
     background-color: rgba(6, 74, 0, 0.17);
 }
-
