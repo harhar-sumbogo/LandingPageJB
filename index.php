@@ -37,7 +37,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
         integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <style>
+        .carousel .carousel-control { opacity: 0; animation: all 1 ease-out; }
+        .carousel:hover .carousel-control { opacity: 1; }
+    </style>
 </head>
 
 <body id="page-top">
@@ -81,7 +84,7 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-        <div id="carouselPromosi" class="carousel slide" data-interval="false">
+        <div id="carouselPromosi" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselPromosi" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -93,12 +96,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!-- <img src="assets/img/bg-masthead.jpg" class="carousel-img" alt="..."> -->
-                    <video autoplay muted>
+                    <video class="carousel-video" autoplay muted>
                         <source src="assets/video/test.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="carousel-item">
-                    <video autoplay muted>
+                    <video class="carousel-video" autoplay muted>
                         <source src="assets/video/test1.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -106,11 +109,11 @@
                     <img src="assets/img/bg-masthead.jpg" class="carousel-img" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromosi" data-bs-slide="prev">
+            <button class="carousel-control-prev carousel-control" type="button" data-bs-target="#carouselPromosi" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPromosi" data-bs-slide="next">
+            <button class="carousel-control-next carousel-control" type="button" data-bs-target="#carouselPromosi" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -624,8 +627,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script>
+        $('video').on('play', function (e) {
+            $("#carouselPromosi").carousel('pause');
+        });
+
+        $('video').on('ended', function (e) {
+            $("#carouselPromosi").carousel('next');
+        });
+    </script>
 </body>
 
 </html>
