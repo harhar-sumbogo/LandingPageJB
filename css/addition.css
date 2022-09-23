@@ -987,6 +987,8 @@ footer.page-section {
 
 .namaRomo2 {
     color: #00301E;
+    width: 31.25rem;
+    margin-left:auto;
     font-weight: bold;
     font-size: 1.8rem;
     font-style: italic;
@@ -1008,13 +1010,13 @@ footer.page-section {
 #deskripsiRomo {
     background-color: #055837;
     color: white;
-    border-radius: 0rem 2rem 2rem 0rem;
+    border-radius: 2rem;
 }
 
 #deskripsiRomo2 {
     background-color: #055837;
     color: white;
-    border-radius: 2rem 0rem 0rem 2rem;
+    border-radius: 2rem;
 }
 
 #fotoRomoKiri img {
