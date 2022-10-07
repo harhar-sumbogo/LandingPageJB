@@ -7,43 +7,15 @@
     width: 5rem;
 }
 
-#logo-jb {
-    padding-top: 25vh;
-}
-
 #main-landing {
     height: 88vh;
+    display: flex;
+    align-items: center;
 }
 
 #contact-landing {
     height: 5vh;
 }
-
-@media (max-width:506px) {
-    #logo-jb {
-        padding-top: 10vh;
-    }
-}
-
-@media (max-width:370px) {
-    #logo-jb {
-        padding-top: 5vh;
-    }
-
-    #main-landing {
-        height: 100%;
-    }
-
-    #contact-landing {
-        height: 10%;
-        background-color: black;
-    }
-
-    main {
-        height: inherit;
-    }
-}
-
 
 #contact-landing a {
     text-decoration: none;
@@ -83,14 +55,14 @@ main {
 }
 
 #go-home>button>i {
-    font-size: 20px;
+    font-size: calc(0.8rem + 0.5vw);
 }
 
 #whatsapp>button {
     border-radius: 5rem;
     background-color: white;
     color: black;
-    font-size: 20px;
+    font-size: calc(0.8rem + 0.5vw);
 }
 
 #whatsapp>button:hover {
@@ -100,7 +72,7 @@ main {
 }
 
 #info {
-    font-size: 20px;
+    font-size: calc(0.8rem + 0.5vw);
     width: 70%;
     font-family: poppins;
 }
@@ -131,7 +103,7 @@ main {
 
 #main-landing {
     font-family: poppins;
-    font-size: 1.1rem;
+    font-size: calc(0.8rem + 0.5vw);
     line-height: 1.8rem;
 }
 
